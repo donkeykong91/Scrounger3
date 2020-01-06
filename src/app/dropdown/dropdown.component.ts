@@ -9,9 +9,9 @@ export interface Food {
  * @title fav food selector
  */
 @Component({
-  selector: 'select-overview-example',
-  templateUrl: 'select-overview-example.html',
-  styleUrls: ['select-overview-example.css'],
+  selector: 'dropdown-component',
+  templateUrl: 'dropdown.component.html',
+  styleUrls: ['dropdown.component.scss'],
 })
 export class DropdownComponent {
   foods: Food[] = [
